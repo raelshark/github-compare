@@ -11,5 +11,5 @@ form.addEventListener("submit", function (event) {
  
   let url = `https://github.com/github/${repo}/${commit1}..${commit2}`
 
-	alert(url);
+  window.location.href = url;
 });
