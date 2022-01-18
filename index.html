@@ -24,7 +24,31 @@
 </head>
 
 <body>
-  <!-- your content here... -->
+
+  <div class="container">
+			<form action="#" method="post" id="form-compare">
+				<h1>Sign Up</h1>
+				<div class="field">
+					<label for="name">Repo:</label>
+					<input type="text" id="repo" name="repo" placeholder="[account]/[repo name]" />
+					<small></small>
+				</div>
+				<div class="field">
+					<label for="email">Commit 1:</label>
+					<input type="text" id="commit1" name="commit1" placeholder="Enter the first repo name" />
+					<small></small>
+				</div>
+        <div class="field">
+					<label for="email">Commit 2:</label>
+					<input type="text" id="commit2" name="commit2" placeholder="Enter the second repo name" />
+					<small></small>
+				</div>
+				<div class="field">
+					<button type="submit" class="full">Subscribe</button>
+				</div>
+			</form>
+		</div>
+  
   <script src="js/scripts.js"></script>
 </body>
 </html>
