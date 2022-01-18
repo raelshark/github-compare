@@ -5,7 +5,7 @@ form.addEventListener("submit", function (event) {
 	// stop form submission
 	event.preventDefault();
   
-  let repo = form.elements["name"].value;
+  let repo = form.elements["repo"].value;
   let commit1 = form.elements["commit1"].value;
   let commit2 = form.elements["commit2"].value;
  
