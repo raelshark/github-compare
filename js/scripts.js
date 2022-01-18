@@ -1,10 +1,6 @@
 
 const form = document.getElementById('form-compare');
 
-
-const result = `The result of multiplying ${firstNumber} by ${secondNumber} is ${firstNumber * secondNumber}.`;
-
-
 form.addEventListener("submit", function (event) {
 	// stop form submission
 	event.preventDefault();
