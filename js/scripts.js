@@ -9,7 +9,7 @@ form.addEventListener("submit", function (event) {
   let commit1 = form.elements["commit1"].value;
   let commit2 = form.elements["commit2"].value;
  
-  let url = `https://github.com/github/${repo}/${commit1}..${commit2}`
+  let url = `https://github.com/${repo}/${commit1}..${commit2}`
 
   window.location.href = url;
 });
